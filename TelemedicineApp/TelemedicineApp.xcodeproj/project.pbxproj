@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B6BA092D60661F00B435D4 /* TelemedicineAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA082D60661F00B435D4 /* TelemedicineAppApp.swift */; };
+		84B6BA0D2D60662100B435D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6BA0C2D60662100B435D4 /* Assets.xcassets */; };
+		84B6BA102D60662100B435D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B6BA0F2D60662100B435D4 /* Preview Assets.xcassets */; };
+		84B6BA1A2D60662100B435D4 /* TelemedicineAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA192D60662100B435D4 /* TelemedicineAppTests.swift */; };
+		84B6BA242D60662100B435D4 /* TelemedicineAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA232D60662100B435D4 /* TelemedicineAppUITests.swift */; };
+		84B6BA262D60662100B435D4 /* TelemedicineAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA252D60662100B435D4 /* TelemedicineAppUITestsLaunchTests.swift */; };
+		84B6BA342D6068D000B435D4 /* TelemedicineApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA322D6068D000B435D4 /* TelemedicineApp.xcdatamodeld */; };
+		84B6BA362D606BB300B435D4 /* PersistentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA352D606BB300B435D4 /* PersistentController.swift */; };
+		84B6BA382D606D7E00B435D4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA372D606D7E00B435D4 /* LoginView.swift */; };
+		84B6BA3A2D60736A00B435D4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA392D60736A00B435D4 /* RegisterView.swift */; };
+		84B6BA3C2D60738600B435D4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA3B2D60738600B435D4 /* DashboardView.swift */; };
+		84B6BA3E2D6088CF00B435D4 /* SlotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA3D2D6088CF00B435D4 /* SlotsView.swift */; };
+		84B6BA402D6088F400B435D4 /* UserSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA3F2D6088F400B435D4 /* UserSettingsView.swift */; };
+		84B6BA422D609A7300B435D4 /* PatientListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA412D609A7300B435D4 /* PatientListView.swift */; };
+		84B6BA442D609B8C00B435D4 /* AddSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA432D609B8C00B435D4 /* AddSlotView.swift */; };
+		84B6BA462D609F1800B435D4 /* EditSlotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA452D609F1800B435D4 /* EditSlotView.swift */; };
+		84B6BA482D60CE4C00B435D4 /* EditDoctorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6BA472D60CE4C00B435D4 /* EditDoctorDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B6BA162D60662100B435D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B6B9FD2D60661F00B435D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B6BA042D60661F00B435D4;
+			remoteInfo = TelemedicineApp;
+		};
+		84B6BA202D60662100B435D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B6B9FD2D60661F00B435D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B6BA042D60661F00B435D4;
+			remoteInfo = TelemedicineApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B6BA052D60661F00B435D4 /* TelemedicineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelemedicineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6BA082D60661F00B435D4 /* TelemedicineAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemedicineAppApp.swift; sourceTree = "<group>"; };
+		84B6BA0C2D60662100B435D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B6BA0F2D60662100B435D4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84B6BA152D60662100B435D4 /* TelemedicineAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelemedicineAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6BA192D60662100B435D4 /* TelemedicineAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemedicineAppTests.swift; sourceTree = "<group>"; };
+		84B6BA1F2D60662100B435D4 /* TelemedicineAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelemedicineAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B6BA232D60662100B435D4 /* TelemedicineAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemedicineAppUITests.swift; sourceTree = "<group>"; };
+		84B6BA252D60662100B435D4 /* TelemedicineAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemedicineAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84B6BA332D6068D000B435D4 /* TelemedicineApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelemedicineApp.xcdatamodel; sourceTree = "<group>"; };
+		84B6BA352D606BB300B435D4 /* PersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentController.swift; sourceTree = "<group>"; };
+		84B6BA372D606D7E00B435D4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		84B6BA392D60736A00B435D4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		84B6BA3B2D60738600B435D4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		84B6BA3D2D6088CF00B435D4 /* SlotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotsView.swift; sourceTree = "<group>"; };
+		84B6BA3F2D6088F400B435D4 /* UserSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingsView.swift; sourceTree = "<group>"; };
+		84B6BA412D609A7300B435D4 /* PatientListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListView.swift; sourceTree = "<group>"; };
+		84B6BA432D609B8C00B435D4 /* AddSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSlotView.swift; sourceTree = "<group>"; };
+		84B6BA452D609F1800B435D4 /* EditSlotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSlotView.swift; sourceTree = "<group>"; };
+		84B6BA472D60CE4C00B435D4 /* EditDoctorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDoctorDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B6BA022D60661F00B435D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6BA122D60662100B435D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6BA1C2D60662100B435D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B6B9FC2D60661F00B435D4 = {
+			isa = PBXGroup;
+			children = (
+				84B6BA072D60661F00B435D4 /* TelemedicineApp */,
+				84B6BA182D60662100B435D4 /* TelemedicineAppTests */,
+				84B6BA222D60662100B435D4 /* TelemedicineAppUITests */,
+				84B6BA062D60661F00B435D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B6BA062D60661F00B435D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B6BA052D60661F00B435D4 /* TelemedicineApp.app */,
+				84B6BA152D60662100B435D4 /* TelemedicineAppTests.xctest */,
+				84B6BA1F2D60662100B435D4 /* TelemedicineAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B6BA072D60661F00B435D4 /* TelemedicineApp */ = {
+			isa = PBXGroup;
+			children = (
+				84B6BA082D60661F00B435D4 /* TelemedicineAppApp.swift */,
+				84B6BA0C2D60662100B435D4 /* Assets.xcassets */,
+				84B6BA0E2D60662100B435D4 /* Preview Content */,
+				84B6BA322D6068D000B435D4 /* TelemedicineApp.xcdatamodeld */,
+				84B6BA352D606BB300B435D4 /* PersistentController.swift */,
+				84B6BA372D606D7E00B435D4 /* LoginView.swift */,
+				84B6BA392D60736A00B435D4 /* RegisterView.swift */,
+				84B6BA3B2D60738600B435D4 /* DashboardView.swift */,
+				84B6BA3D2D6088CF00B435D4 /* SlotsView.swift */,
+				84B6BA3F2D6088F400B435D4 /* UserSettingsView.swift */,
+				84B6BA412D609A7300B435D4 /* PatientListView.swift */,
+				84B6BA432D609B8C00B435D4 /* AddSlotView.swift */,
+				84B6BA452D609F1800B435D4 /* EditSlotView.swift */,
+				84B6BA472D60CE4C00B435D4 /* EditDoctorDetailView.swift */,
+			);
+			path = TelemedicineApp;
+			sourceTree = "<group>";
+		};
+		84B6BA0E2D60662100B435D4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84B6BA0F2D60662100B435D4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84B6BA182D60662100B435D4 /* TelemedicineAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B6BA192D60662100B435D4 /* TelemedicineAppTests.swift */,
+			);
+			path = TelemedicineAppTests;
+			sourceTree = "<group>";
+		};
+		84B6BA222D60662100B435D4 /* TelemedicineAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84B6BA232D60662100B435D4 /* TelemedicineAppUITests.swift */,
+				84B6BA252D60662100B435D4 /* TelemedicineAppUITestsLaunchTests.swift */,
+			);
+			path = TelemedicineAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B6BA042D60661F00B435D4 /* TelemedicineApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B6BA292D60662100B435D4 /* Build configuration list for PBXNativeTarget "TelemedicineApp" */;
+			buildPhases = (
+				84B6BA012D60661F00B435D4 /* Sources */,
+				84B6BA022D60661F00B435D4 /* Frameworks */,
+				84B6BA032D60661F00B435D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelemedicineApp;
+			productName = TelemedicineApp;
+			productReference = 84B6BA052D60661F00B435D4 /* TelemedicineApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B6BA142D60662100B435D4 /* TelemedicineAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B6BA2C2D60662100B435D4 /* Build configuration list for PBXNativeTarget "TelemedicineAppTests" */;
+			buildPhases = (
+				84B6BA112D60662100B435D4 /* Sources */,
+				84B6BA122D60662100B435D4 /* Frameworks */,
+				84B6BA132D60662100B435D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B6BA172D60662100B435D4 /* PBXTargetDependency */,
+			);
+			name = TelemedicineAppTests;
+			productName = TelemedicineAppTests;
+			productReference = 84B6BA152D60662100B435D4 /* TelemedicineAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B6BA1E2D60662100B435D4 /* TelemedicineAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B6BA2F2D60662100B435D4 /* Build configuration list for PBXNativeTarget "TelemedicineAppUITests" */;
+			buildPhases = (
+				84B6BA1B2D60662100B435D4 /* Sources */,
+				84B6BA1C2D60662100B435D4 /* Frameworks */,
+				84B6BA1D2D60662100B435D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B6BA212D60662100B435D4 /* PBXTargetDependency */,
+			);
+			name = TelemedicineAppUITests;
+			productName = TelemedicineAppUITests;
+			productReference = 84B6BA1F2D60662100B435D4 /* TelemedicineAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B6B9FD2D60661F00B435D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					84B6BA042D60661F00B435D4 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					84B6BA142D60662100B435D4 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 84B6BA042D60661F00B435D4;
+					};
+					84B6BA1E2D60662100B435D4 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 84B6BA042D60661F00B435D4;
+					};
+				};
+			};
+			buildConfigurationList = 84B6BA002D60661F00B435D4 /* Build configuration list for PBXProject "TelemedicineApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B6B9FC2D60661F00B435D4;
+			productRefGroup = 84B6BA062D60661F00B435D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B6BA042D60661F00B435D4 /* TelemedicineApp */,
+				84B6BA142D60662100B435D4 /* TelemedicineAppTests */,
+				84B6BA1E2D60662100B435D4 /* TelemedicineAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B6BA032D60661F00B435D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6BA102D60662100B435D4 /* Preview Assets.xcassets in Resources */,
+				84B6BA0D2D60662100B435D4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6BA132D60662100B435D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6BA1D2D60662100B435D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B6BA012D60661F00B435D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6BA482D60CE4C00B435D4 /* EditDoctorDetailView.swift in Sources */,
+				84B6BA092D60661F00B435D4 /* TelemedicineAppApp.swift in Sources */,
+				84B6BA462D609F1800B435D4 /* EditSlotView.swift in Sources */,
+				84B6BA3C2D60738600B435D4 /* DashboardView.swift in Sources */,
+				84B6BA3A2D60736A00B435D4 /* RegisterView.swift in Sources */,
+				84B6BA3E2D6088CF00B435D4 /* SlotsView.swift in Sources */,
+				84B6BA402D6088F400B435D4 /* UserSettingsView.swift in Sources */,
+				84B6BA362D606BB300B435D4 /* PersistentController.swift in Sources */,
+				84B6BA442D609B8C00B435D4 /* AddSlotView.swift in Sources */,
+				84B6BA382D606D7E00B435D4 /* LoginView.swift in Sources */,
+				84B6BA422D609A7300B435D4 /* PatientListView.swift in Sources */,
+				84B6BA342D6068D000B435D4 /* TelemedicineApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6BA112D60662100B435D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6BA1A2D60662100B435D4 /* TelemedicineAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B6BA1B2D60662100B435D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B6BA262D60662100B435D4 /* TelemedicineAppUITestsLaunchTests.swift in Sources */,
+				84B6BA242D60662100B435D4 /* TelemedicineAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B6BA172D60662100B435D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B6BA042D60661F00B435D4 /* TelemedicineApp */;
+			targetProxy = 84B6BA162D60662100B435D4 /* PBXContainerItemProxy */;
+		};
+		84B6BA212D60662100B435D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B6BA042D60661F00B435D4 /* TelemedicineApp */;
+			targetProxy = 84B6BA202D60662100B435D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84B6BA272D60662100B435D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B6BA282D60662100B435D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B6BA2A2D60662100B435D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TelemedicineApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.TelemedicineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B6BA2B2D60662100B435D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TelemedicineApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.TelemedicineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84B6BA2D2D60662100B435D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.TelemedicineAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelemedicineApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelemedicineApp";
+			};
+			name = Debug;
+		};
+		84B6BA2E2D60662100B435D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.TelemedicineAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelemedicineApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TelemedicineApp";
+			};
+			name = Release;
+		};
+		84B6BA302D60662100B435D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.TelemedicineAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelemedicineApp;
+			};
+			name = Debug;
+		};
+		84B6BA312D60662100B435D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sampleapp.TelemedicineAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TelemedicineApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B6BA002D60661F00B435D4 /* Build configuration list for PBXProject "TelemedicineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6BA272D60662100B435D4 /* Debug */,
+				84B6BA282D60662100B435D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B6BA292D60662100B435D4 /* Build configuration list for PBXNativeTarget "TelemedicineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6BA2A2D60662100B435D4 /* Debug */,
+				84B6BA2B2D60662100B435D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B6BA2C2D60662100B435D4 /* Build configuration list for PBXNativeTarget "TelemedicineAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6BA2D2D60662100B435D4 /* Debug */,
+				84B6BA2E2D60662100B435D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B6BA2F2D60662100B435D4 /* Build configuration list for PBXNativeTarget "TelemedicineAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B6BA302D60662100B435D4 /* Debug */,
+				84B6BA312D60662100B435D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84B6BA322D6068D000B435D4 /* TelemedicineApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84B6BA332D6068D000B435D4 /* TelemedicineApp.xcdatamodel */,
+			);
+			currentVersion = 84B6BA332D6068D000B435D4 /* TelemedicineApp.xcdatamodel */;
+			path = TelemedicineApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84B6B9FD2D60661F00B435D4 /* Project object */;
+}
